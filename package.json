@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "travis:test": "npm run test -- --no-watch --no-progress --code-coverage --browsers=ChromeTravisCi"
   },
   "private": true,
   "dependencies": {

@@ -20,6 +20,6 @@ before_install:
 install:
   - npm install --ignore-scripts
 script:
-  - npm run test
+  - npm run travis:test
 after_success:
   - bash ./.travis.sh
